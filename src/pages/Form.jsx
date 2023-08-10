@@ -19,7 +19,6 @@ export default function Form() {
 
         axios.post(apiUrl + "/new_user", data)
             .then(res => {
-                console.log(res)
                 Swal.fire({
                     icon: "success",
                     title: "User registered",
